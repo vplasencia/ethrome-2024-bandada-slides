@@ -223,7 +223,7 @@ transition: slide-left
 <br>
 <br>
 
-❌ The Bandada on-chain groups are Semaphore groups at the moment, you can work with them using the Semaphore packages. More about Semaphore: https://semaphore.pse.dev/
+❌ The Bandada on-chain groups are Semaphore groups at the moment, you can work with them using the Semaphore packages. More about Semaphore: [semaphore.pse.dev](https://semaphore.pse.dev/)
 
 ---
 transition: slide-up
@@ -235,7 +235,7 @@ layoutClass: gap-16
 
 <br>
 
-There are 3 ways you can start using Bandada in your project:
+There are 4 ways you can start using Bandada in your project:
 
 <br>
 
@@ -353,6 +353,15 @@ await apiSdk.addMembersByApiKey(group.id, members, apiKey)
 
 await apiSdk.removeMemberByApiKey(group.id, "1", apiKey)
 ```
+
+---
+transition: slide-up
+layout: two-cols
+hideInToc: true
+layoutClass: gap-16
+---
+
+# Installing packages manually
 
 ---
 transition: slide-left
