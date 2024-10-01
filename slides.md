@@ -10,12 +10,12 @@ fonts:
   serif: Poppins
   # for code blocks, inline code, etc.
   mono: Fira Code
-title: Bandada - Managing Privacy-Preserving Groups
+title: Building with Bandada
 info: |
-  ## Bandada ETHDam 2024
-  Presentation slides for ETHDam 2024.
+  ## Bandada ETHRome 2024
+  Presentation slides for ETHRome 2024.
 
-  Learn more at [Bandada](https://docs.bandada.pse.dev)
+  Learn more at [Bandada](https://bandada.pse.dev)
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -30,7 +30,7 @@ mdc: true
 hideInToc: true
 ---
 
-# Bandada: Managing Privacy-Preserving Groups
+# Building with Bandada
 
 <div class="text-25px opacity-85">
 Vivian Plasencia
@@ -43,7 +43,7 @@ Vivian Plasencia
 />
 
 <div class="abs-b mb-12 ml-6 flex text-12px opacity-70">
-  <p>ETHDam 2024</p>
+  <p>ETHRome 2024</p>
 </div>
 
 <div class="abs-b m-6 flex text-12px opacity-70">
@@ -51,7 +51,7 @@ Vivian Plasencia
 </div>
 
 <div class="abs-br m-6">
-  <a href="https://github.com/vplasencia/ethdam-2024-bandada-slides" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/vplasencia/ethrome-2024-bandada-slides" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -108,8 +108,8 @@ layout: two-cols
   alt="Birds"
 />
 
-<a href="https://docs.bandada.pse.dev/" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
-<span>https://docs.bandada.pse.dev/</span>
+<a href="https://bandada.pse.dev/" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
+<span>bandada.pse.dev</span>
 </a>
 
 ::right::
@@ -153,7 +153,7 @@ transition: slide-left
 
 <br>
 
-Ideas to build with Bandada: [https://github.com/orgs/bandada-infra/discussions/367](https://github.com/orgs/bandada-infra/discussions/367)
+Ideas to build with Bandada: [github.com/orgs/bandada-infra/discussions/367](https://github.com/orgs/bandada-infra/discussions/367)
 
 ---
 transition: slide-left
@@ -178,11 +178,11 @@ transition: slide-up
 | --------------------------- | --------- | -------- |
 | Create group(s)             | ✅        | ✅       |
 | Update group(s)             | ✅        | ❌       |
-| Remove group(s)             | ✅        | ❌       |
+| Remove group(s)             | ✅        | N/A      |
 | Invite code to join a group | ✅        | ❌       |
 | Credentials to join a group | ✅        | ❌       |
 | Add member(s)               | ✅        | ✅       |
-| Remove member(s)            | ✅        | ❌       |
+| Remove member(s)            | ✅        | ✅       |
 
 ---
 transition: slide-up
@@ -202,7 +202,7 @@ transition: slide-up
 
 <div class="flex justify-center items-center gap-2">
 <div>Credentials package:</div>
-<a href="https://github.com/bandada-infra/bandada/tree/main/libs/credentials" target="_blank">https://github.com/bandada-infra/bandada/tree/main/libs/credentials</a>
+<a href="https://github.com/bandada-infra/bandada/tree/main/libs/credentials" target="_blank">github.com/bandada-infra/bandada/tree/main/libs/credentials</a>
 </div>
 
 ---
@@ -254,7 +254,9 @@ There are 3 ways you can start using Bandada in your project:
 
 Bandada documentation
 
-https://docs.bandada.pse.dev/
+<a href="https://docs.bandada.pse.dev/" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
+<span>docs.bandada.pse.dev</span>
+</a>
 
 ---
 transition: slide-up
@@ -278,7 +280,7 @@ It is compatible with any programming language that supports REST API requests.
   alt="Bandada API docs"
 />
 
-[https://api.bandada.pse.dev/](https://api.bandada.pse.dev/)
+[api.bandada.pse.dev/](https://api.bandada.pse.dev/)
 
 ---
 transition: slide-up
@@ -305,7 +307,7 @@ npm install @bandada/api-sdk
 
 <br>
 
-https://docs.bandada.pse.dev/api/api-sdk
+[docs.bandada.pse.dev/api/api-sdk](https://docs.bandada.pse.dev/api/api-sdk)
 
 ::right::
 
@@ -317,7 +319,7 @@ https://docs.bandada.pse.dev/api/api-sdk
 
 API SDK Demo
 
-https://github.com/bandada-infra/bandada-sdk-demo
+[github.com/bandada-infra/bandada-sdk-demo](https://github.com/bandada-infra/bandada-sdk-demo)
 
 ---
 transition: slide-up
@@ -361,7 +363,7 @@ hideInToc: true
 <div class="flex justify-between items-center">
 <div>
 <div>Boilerplate live app:</div>
-<a href="https://demo.bandada.pse.dev/" target="_blank">https://demo.bandada.pse.dev/</a>
+<a href="https://demo.bandada.pse.dev/" target="_blank">demo.bandada.pse.dev</a>
 </div>
 <img
   class="w-[10rem] rounded-md"
@@ -374,7 +376,7 @@ hideInToc: true
 
 You can fork it, clone it or use it as a template:
 
-https://github.com/bandada-infra/boilerplate
+[github.com/bandada-infra/boilerplate](https://github.com/bandada-infra/boilerplate)
 
 <img
   class="center"
@@ -411,7 +413,7 @@ transition: slide-left
 
 - Build a modular architecture that supports several data structures and different types of groups.
 
-https://github.com/orgs/bandada-infra/discussions/350
+[github.com/orgs/bandada-infra/discussions/350](https://github.com/orgs/bandada-infra/discussions/350)
 
 ---
 transition: slide-up
@@ -425,13 +427,15 @@ layoutClass: gap-16
 
 Document with the main Bandada information and links for hackers.
 
-<br>
-
 <img
-  class="w-[15rem] rounded-md"
+  class="w-[12rem] rounded-md"
   src="/bandada-hackathon-guide-qrcode.png"
   alt="Bandada hackathon guide qrcode"
 />
+
+<a href="https://bandada.pse.dev/hackathon-guide" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
+<span>bandada.pse.dev/hackathon-guide</span>
+</a>
 
 ::right::
 
@@ -453,13 +457,13 @@ hideInToc: true
 
 This presentation is open source, you can check the slides and code.
 
-<br>
-
 <img
-  class="w-[15rem] rounded-md"
+  class="w-[12rem] rounded-md"
   src="/presentation-qrcode.png"
   alt="Presentation qrcode"
 />
+
+[vplasencia.github.io/ethrome-2024-bandada-slides](https://vplasencia.github.io/ethrome-2024-bandada-slides)
 
 ::right::
 
