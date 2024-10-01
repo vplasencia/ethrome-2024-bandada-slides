@@ -28,6 +28,7 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
 hideInToc: true
+favicon: "./favicon.svg"
 ---
 
 # Building with Bandada
@@ -238,11 +239,13 @@ There are 3 ways you can start using Bandada in your project:
 
 <br>
 
-- [API]()
+- [API](https://api.bandada.pse.dev/)
 
-- [API SDK]()
+- [API SDK](https://docs.bandada.pse.dev/api-sdk)
 
-- [Boilerplate]()
+- [Boilerplate](https://github.com/bandada-infra/boilerplate)
+
+- [Installing packages manually](https://github.com/bandada-infra/bandada/tree/main/libs)
 
 ::right::
 
