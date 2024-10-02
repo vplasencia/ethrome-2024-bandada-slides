@@ -221,7 +221,9 @@ transition: slide-left
 <br>
 <br>
 
-- The Bandada on-chain groups are Semaphore groups at the moment, you can work with them using the Semaphore packages. More about Semaphore: [semaphore.pse.dev](https://semaphore.pse.dev/)
+- Currently, the Bandada on-chain groups are Semaphore groups. You can work with them using the following Semaphore packages: [@semaphore-protocol/contracts](https://github.com/semaphore-protocol/semaphore/tree/main/packages/contracts) and [@semaphore-protocol/data](https://github.com/semaphore-protocol/semaphore/tree/main/packages/data).
+
+Learn more about Semaphore: [semaphore.pse.dev](https://semaphore.pse.dev/)
 
 ---
 transition: slide-up
@@ -237,13 +239,19 @@ There are 4 ways you can start using Bandada in your project:
 
 <br>
 
-- [API](https://api.bandada.pse.dev/)
+- <Link to="10">API</Link>
 
-- [API SDK](https://docs.bandada.pse.dev/api-sdk)
+<br>
 
-- [Boilerplate](https://github.com/bandada-infra/boilerplate)
+- <Link to="11">API SDK</Link>
 
-- [Installing packages manually](https://github.com/bandada-infra/bandada/tree/main/libs)
+<br>
+
+- <Link to="13">Installing packages manually</Link>
+
+<br>
+
+- <Link to="14">Boilerplate</Link>
 
 ::right::
 
