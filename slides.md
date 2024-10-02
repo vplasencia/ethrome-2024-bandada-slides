@@ -304,9 +304,11 @@ It is a JavaScript package that provides a list of functions to make it easier t
 
 #### Install the API SDK package
 
+<div class="w-max">
 ```bash
 npm install @bandada/api-sdk
 ```
+</div>
 
 <br>
 
@@ -356,12 +358,30 @@ await apiSdk.removeMemberByApiKey(group.id, "1", apiKey)
 
 ---
 transition: slide-up
-layout: two-cols
 hideInToc: true
-layoutClass: gap-16
 ---
 
 # Installing packages manually
+
+<br>
+
+[@bandada/credentials](https://github.com/bandada-infra/bandada/tree/main/libs/credentials): This library provides functions to validate users' credentials. 
+
+<div class="w-max">
+```bash
+npm install @bandada/credentials
+```
+</div>
+
+<br>
+
+[@zk-kit/logical-expressions](https://github.com/privacy-scaling-explorations/zk-kit/tree/main/packages/logical-expressions): This library facilitates the work with logical (boolean) expressions. It allows you to tokenize and evaluate any logical expression. It supports the use of parentheses.
+
+<div class="w-max">
+```bash
+npm install @zk-kit/logical-expressions
+```
+</div>
 
 ---
 transition: slide-left
