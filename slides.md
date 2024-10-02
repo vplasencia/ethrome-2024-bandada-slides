@@ -109,9 +109,7 @@ layout: two-cols
   alt="Birds"
 />
 
-<a href="https://bandada.pse.dev/" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
-<span>bandada.pse.dev</span>
-</a>
+[bandada.pse.dev](https://bandada.pse.dev/)
 
 ::right::
 
@@ -216,14 +214,14 @@ transition: slide-left
 
 | Tools     | Off-chain | On-chain |
 | --------- | --------- | -------- |
-| API       | ✅        | ❌       |
-| API SDK   | ✅        | ❌       |
+| API       | ✅        | N/A      |
+| API SDK   | ✅        | N/A      |
 | Dashboard | ✅        | ✅       |
 
 <br>
 <br>
 
-❌ The Bandada on-chain groups are Semaphore groups at the moment, you can work with them using the Semaphore packages. More about Semaphore: [semaphore.pse.dev](https://semaphore.pse.dev/)
+- The Bandada on-chain groups are Semaphore groups at the moment, you can work with them using the Semaphore packages. More about Semaphore: [semaphore.pse.dev](https://semaphore.pse.dev/)
 
 ---
 transition: slide-up
@@ -257,9 +255,7 @@ There are 4 ways you can start using Bandada in your project:
 
 Bandada documentation
 
-<a href="https://docs.bandada.pse.dev/" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
-<span>docs.bandada.pse.dev</span>
-</a>
+[docs.bandada.pse.dev](https://docs.bandada.pse.dev/)
 
 ---
 transition: slide-up
@@ -365,7 +361,7 @@ hideInToc: true
 
 <br>
 
-[@bandada/credentials](https://github.com/bandada-infra/bandada/tree/main/libs/credentials): This library provides functions to validate users' credentials. 
+[@bandada/credentials](https://github.com/bandada-infra/bandada/tree/main/libs/credentials): This library provides functions to validate users' credentials.
 
 <div class="w-max">
 ```bash
@@ -465,9 +461,7 @@ Document with the main Bandada information and links for hackers.
   alt="Bandada hackathon guide qrcode"
 />
 
-<a href="https://bandada.pse.dev/hackathon-guide" target="_blank" alt="Docs" title="Bandada docs" class="text-center">
-<span>bandada.pse.dev/hackathon-guide</span>
-</a>
+[bandada.pse.dev/hackathon-guide](https://bandada.pse.dev/hackathon-guide)
 
 ::right::
 
