@@ -439,11 +439,11 @@ transition: slide-left
 
 <br>
 
-- Improve user experience and developer experience (Documentation, SDKs, CLI, templates).
+- Improve developer experience (Documentation, SDKs, CLI, templates).
 
 - Integrate other protocols like POAP, Zupass, etc.
 
-- Logical operators for credentials, create groups with multiple credentials.
+- Work on the concept of Universal Groups, which are groups compatible with other protocols such as [Semaphore](https://semaphore.pse.dev/), [MACI](https://maci.pse.dev/) and [RLN](https://github.com/Rate-Limiting-Nullifier).
 
 - Work on on-chain groups to have the same functionalities that off-chain groups have now (join groups with invite link, credential groups, etc.).
 
