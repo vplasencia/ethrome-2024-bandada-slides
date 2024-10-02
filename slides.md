@@ -142,13 +142,11 @@ transition: slide-left
 
 - Group of people in a private organization
 
-- Group with members who have contributed to a specific GitHub repository
-
 - Groups of wallets holding a specific NFT
 
 - Group of members with +500 Twitter (X) followers
 
-- Group of people with +300 number of transactions on a specific network
+- Group of members who have contributed to a specific GitHub repository and have +300 number of transactions on a specific network
 
 <br>
 
