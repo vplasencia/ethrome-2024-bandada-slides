@@ -189,7 +189,7 @@ transition: slide-up
 
 # Credential Groups
 
-<div class="flex justify-center items-center mt-[2rem]">
+<div class="flex justify-center items-center mt-[1rem] mb-[1rem]">
 <img
   class="center w-[35rem]"
   src="/bandada-credentials.svg"
@@ -197,9 +197,9 @@ transition: slide-up
 />
 </div>
 
-<br>
+- Groups support multiple credentials using logical operators.
 
-<div class="flex justify-center items-center gap-2">
+<div class="flex gap-2 mt-[.5rem]">
 <div>Credentials package:</div>
 <a href="https://github.com/bandada-infra/bandada/tree/main/libs/credentials" target="_blank">github.com/bandada-infra/bandada/tree/main/libs/credentials</a>
 </div>
