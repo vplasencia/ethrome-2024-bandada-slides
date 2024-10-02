@@ -195,7 +195,7 @@ transition: slide-up
 />
 </div>
 
-- Groups support multiple credentials using logical operators.
+- Groups support multiple credentials using logical operators such as AND, OR, NOT and XOR.
 
 <div class="flex gap-2 mt-[.5rem]">
 <div>Credentials package:</div>
