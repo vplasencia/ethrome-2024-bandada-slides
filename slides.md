@@ -285,7 +285,7 @@ It is compatible with any programming language that supports REST API requests.
   alt="Bandada API docs"
 />
 
-[api.bandada.pse.dev/](https://api.bandada.pse.dev/)
+[api.bandada.pse.dev](https://api.bandada.pse.dev/)
 
 ---
 transition: slide-up
