@@ -22,6 +22,18 @@ ol li {
   line-height: 3rem !important;
 }
 
+body {
+  color: #0f172a;
+}
+
+a {
+  color: #0f172a;
+}
+
+a:hover {
+  color: #cd097d !important;
+}
+
 html.dark {
   body {
     color: #f1f5f9;

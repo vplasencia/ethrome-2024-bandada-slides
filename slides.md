@@ -53,7 +53,7 @@ Vivian Plasencia
 
 <div class="abs-br m-6">
   <a href="https://github.com/vplasencia/ethrome-2024-bandada-slides" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-[eb179b]">
     <carbon-logo-github />
   </a>
 </div>
