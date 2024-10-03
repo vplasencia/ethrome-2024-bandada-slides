@@ -144,7 +144,7 @@ transition: slide-left
 
 - Groups of wallets holding a specific NFT
 
-- Group of members with +500 Twitter (X) followers
+- Group of members with +500 X (Twitter) followers
 
 - Group of members who have contributed to a specific GitHub repository and have +300 number of transactions on a specific network
 
