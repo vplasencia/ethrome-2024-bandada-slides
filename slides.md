@@ -3,6 +3,7 @@
 theme: default
 # background: "black"
 # some information about your slides, markdown enabled
+exportFilename: bandada-ethrome-2024
 fonts:
   # basically the text
   sans: Poppins
